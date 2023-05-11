@@ -1,0 +1,70 @@
+.list{
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.listSearchbar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.listSearchbarTitle{
+    font-size: 30px;
+    font-weight: bold;
+    color: var(--yellow);
+}
+
+.listSearchbarInput{
+    height: 40px;
+    width: 100%;
+    background: var(--blue);
+    border: none;
+    border-radius: 5px;
+    padding: 0 10px;
+    font-size: 20px;
+    color: #fff;
+}
+
+.listSearchbarInput::placeholder{
+    color: #fff;
+}
+
+.listSearchbarInput:focus{
+    outline: 2px solid var(--yellow);
+}
+
+.listSearchbarMessage{
+    text-align: center;
+    font-weight: bold;
+    background-color: rgb(223, 36, 36);
+    line-height: 40px;
+    border-radius: 5px;
+}
+
+
+.listTasks{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+@media(max-width: 580px){
+
+    .list{
+        padding: 30px;
+    }
+
+    .listSearchbarTitle{
+        font-size: 20px;
+        text-align: center;
+    }
+    
+    .listSearchbarInput{
+        font-size: 15px;
+    }
+    
+}

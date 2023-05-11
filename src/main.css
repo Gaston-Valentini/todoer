@@ -1,0 +1,13 @@
+/* Determina ciertos aspectos globales para la aplicación */
+
+* {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+:root{
+    --blue: #193651;
+    --yellow: #FFBF5D;
+    --gris: #E1E6E9;
+    --text-shadow: 1px 1px 1px rgb(0,0,0);
+}

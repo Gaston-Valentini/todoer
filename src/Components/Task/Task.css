@@ -1,0 +1,56 @@
+.task{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    background-color: var(--gris);
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px #000;
+}
+
+.taskButtons{
+    display: flex;
+    gap: 10px;
+}
+
+.taskButtonsDelete{
+    font-size: 30px;
+    color: rgb(35, 180, 62);
+    border-radius: 50%;
+}
+.taskButtonsDelete:hover, .taskButtonsEdit:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.taskButtonsEdit{
+    font-size: 30px;
+    color: rgb(12, 39, 216);
+}
+
+.taskTitle{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.taskDescription{
+    font-size: 15px;
+}
+
+.taskUrgency {
+    font-size: 15PX;
+    font-weight: bold;
+}
+  
+.taskUrgencyRed {
+    color: red;
+}
+  
+.taskUrgencyOrange {
+    color: orange;
+}
+  
+.taskUrgencyGreen {
+    color: green;
+}
